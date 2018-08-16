@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Class Dragons</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/style.css">
+
+</head>
+
+<body>
+    <main>
+        <div class="container" id="pre-game">
+            <div class="row">
+                <div id="champions" class='col'></div>
+                <div id="start-button" hidden class="col">
+                    <button onclick="app.controllers.gameController.start()">BEGIN THE FIGHT</button>
+                </div>
+                <div id="dragons" class='col'></div>
+            </div>
+        </div>
+        <div class="container" id="game">
+            <div class="row" id="game">
+            </div>
+        </div>
+    </main>
+
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.18.0/axios.js"></script>
+    <script type='module' src='app/main.js'></script>
+</body>
+
+</html>

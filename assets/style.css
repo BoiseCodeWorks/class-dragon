@@ -1,0 +1,7 @@
+img {
+    height: 100px;
+}
+
+.dragon, .champ { 
+    outline: 1px solid black;   
+}
